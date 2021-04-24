@@ -1,0 +1,24 @@
+{
+  "name": "layoutProject1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass:watch": "node-sass -w scss/styles.scss css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewrey/layout1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewrey/layout1/issues"
+  },
+  "homepage": "https://github.com/andrewrey/layout1#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
