@@ -84,7 +84,7 @@ header {
   header div {
     text-align: center;
     width: 90%;
-    max-width: 468px;
+    max-width: 800px;
     color: white; }
     @media (min-width: 768px) {
       header div {
@@ -103,6 +103,14 @@ header {
       font-weight: 400;
       text-transform: uppercase; }
 
-.section-one .section-one__paragraphs {
-  display: grid;
-  grid-template-columns: 1fr; }
+.section-one {
+  text-align: center;
+  padding-top: 50px; }
+  .section-one .section-one__paragraphs {
+    display: grid;
+    grid-template-columns: 1fr; }
+  .section-one h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 2.25rem; }
+  .section-one h3 {
+    font-size: 0.875rem; }
