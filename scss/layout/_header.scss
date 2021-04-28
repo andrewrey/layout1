@@ -1,21 +1,38 @@
 header {
   background-image: url("../images/mountain5.jpg");
-  background-position: 0% 40%;
+  background-position: 50% 40%;
   background-size: cover;
   background-repeat: no-repeat;
   clip-path: polygon(50% 100%, 100% 80%, 100% 0, 0 0, 0 80%);
-
+  font-family: $basefont;
   min-height: 60vh;
+  @include mq(768px) {
+    min-height: 100vh;
+  }
   display: flex;
+  flex-direction: column;
   justify-content: center;
+
   align-items: center;
   div {
+    @include mq(768px) {
+      position: relative;
+      top: 50px;
+    }
+    padding: 3rem;
     h1 {
+      line-height: 1.2;
       font-size: 3rem;
+      font-weight: 900;
+      @include mq(768px) {
+        font-size: 6rem;
+      }
     }
     h2 {
-      margin-top: 2rem;
+      margin-top: 1.5rem;
       font-size: 1.8rem;
+      font-weight: 400;
+      text-transform: uppercase;
     }
     text-align: center;
     width: 80%;
