@@ -63,11 +63,11 @@ select {
 
 header {
   background-image: url("../images/mountain5.jpg");
-  background-position: center;
+  background-position: 0% 40%;
   background-size: cover;
   background-repeat: no-repeat;
   clip-path: polygon(50% 100%, 100% 80%, 100% 0, 0 0, 0 80%);
-  min-height: 40vh;
+  min-height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -78,4 +78,5 @@ header {
     header div h1 {
       font-size: 3rem; }
     header div h2 {
+      margin-top: 2rem;
       font-size: 1.8rem; }
