@@ -13,9 +13,16 @@
     margin-top: 2rem;
     justify-content: center;
     display: grid;
-    grid-template-columns: 65%;
+    grid-template-columns: 70%;
+    p {
+      padding: 0 0.8rem;
+    }
+
     > * + * {
       margin-top: 2.5rem;
+      @include mq(768px) {
+        margin-top: 0;
+      }
     }
     @include mq(768px) {
       grid-template-columns: 1fr 1fr;

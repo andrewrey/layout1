@@ -116,9 +116,14 @@ header {
     margin-top: 2rem;
     justify-content: center;
     display: grid;
-    grid-template-columns: 65%; }
+    grid-template-columns: 70%; }
+    .section-one .section-one__paragraphs p {
+      padding: 0 0.8rem; }
     .section-one .section-one__paragraphs > * + * {
       margin-top: 2.5rem; }
+      @media (min-width: 768px) {
+        .section-one .section-one__paragraphs > * + * {
+          margin-top: 0; } }
     @media (min-width: 768px) {
       .section-one .section-one__paragraphs {
         grid-template-columns: 1fr 1fr;
