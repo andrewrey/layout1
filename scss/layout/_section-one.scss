@@ -1,9 +1,22 @@
 .section-one {
   text-align: center;
   padding-top: 50px;
+  .section-one__intro {
+    width: 65%;
+    margin: 0 auto;
+    h3 {
+      margin-top: 1rem;
+      letter-spacing: 2px;
+    }
+  }
   .section-one__paragraphs {
+    margin-top: 2rem;
+    justify-content: center;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 65%;
+    > * + * {
+      margin-top: 10px;
+    }
   }
   h2 {
     font-family: $basefont;

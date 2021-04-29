@@ -106,9 +106,19 @@ header {
 .section-one {
   text-align: center;
   padding-top: 50px; }
+  .section-one .section-one__intro {
+    width: 65%;
+    margin: 0 auto; }
+    .section-one .section-one__intro h3 {
+      margin-top: 1rem;
+      letter-spacing: 2px; }
   .section-one .section-one__paragraphs {
+    margin-top: 2rem;
+    justify-content: center;
     display: grid;
-    grid-template-columns: 1fr; }
+    grid-template-columns: 65%; }
+    .section-one .section-one__paragraphs > * + * {
+      margin-top: 10px; }
   .section-one h2 {
     font-family: "Roboto", sans-serif;
     font-size: 2.25rem; }
