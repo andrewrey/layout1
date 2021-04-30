@@ -141,3 +141,15 @@ header {
 .section-two__logo {
   width: 300px;
   margin: 0 auto; }
+
+.section-two__images {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .section-two__images .pic {
+    width: 70%; }
+    .section-two__images .pic + .pic {
+      margin-top: 1rem; }
