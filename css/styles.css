@@ -126,6 +126,9 @@ header {
           margin-top: 0; } }
     @media (min-width: 768px) {
       .section-one .section-one__paragraphs {
+        width: 80%;
+        margin: 2rem auto;
+        max-width: 900px;
         grid-template-columns: 1fr 1fr;
         gap: 10px;
         text-align: left; } }
