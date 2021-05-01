@@ -149,10 +149,13 @@ header {
 
 .section-two {
   padding-bottom: 100px;
-  clip-path: polygon(50% 100%, 100% 93%, 101% 0, 0 0, 0 93%);
+  clip-path: polygon(0 0, 100% 0, 100% 97%, 0% 100%);
   background: linear-gradient(white, transparent), url("../images/section2-backdrop.jpg");
   background-position: center;
   background-size: cover; }
+  @media (min-width: 768px) {
+    .section-two {
+      clip-path: polygon(50% 100%, 100% 93%, 101% 0, 0 0, 0 93%); } }
   .section-two h2,
   .section-two h3 {
     color: white; }
