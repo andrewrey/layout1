@@ -6,7 +6,6 @@
     margin: 0 auto;
     h3 {
       margin-top: 1rem;
-      letter-spacing: 2px;
     }
   }
   .section-one__paragraphs {
@@ -32,12 +31,5 @@
       gap: 10px;
       text-align: left;
     }
-  }
-  h2 {
-    font-family: $basefont;
-    font-size: 2.25rem;
-  }
-  h3 {
-    font-size: 0.875rem;
   }
 }

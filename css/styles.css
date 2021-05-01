@@ -71,6 +71,16 @@ main {
   max-width: 1400px;
   margin: 0 auto; }
 
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.25rem;
+  font-weight: 900; }
+
+h3 {
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 2px; }
+
 header {
   background-image: url("../images/mountain-backdrop.jpg");
   background-position: 50% 40%;
@@ -115,8 +125,7 @@ header {
     width: 65%;
     margin: 0 auto; }
     .section-one .section-one__intro h3 {
-      margin-top: 1rem;
-      letter-spacing: 2px; }
+      margin-top: 1rem; }
   .section-one .section-one__paragraphs {
     margin-top: 2rem;
     justify-content: center;
@@ -137,11 +146,6 @@ header {
         grid-template-columns: 1fr 1fr;
         gap: 10px;
         text-align: left; } }
-  .section-one h2 {
-    font-family: "Roboto", sans-serif;
-    font-size: 2.25rem; }
-  .section-one h3 {
-    font-size: 0.875rem; }
 
 .section-two__logo {
   width: 300px;
