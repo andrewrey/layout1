@@ -10,10 +10,21 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  @include mq(768px) {
+    flex-direction: row;
+  }
   .pic {
     width: 70%;
-    & + .pic {
-      margin-top: 1rem;
+    margin: {
+      left: auto;
+      right: auto;
+      top: 1rem;
     }
+  }
+}
+
+.section-two__images__wrap {
+  @include mq(768px) {
+    width: calc(100% / 3);
   }
 }
