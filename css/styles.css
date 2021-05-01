@@ -147,6 +147,25 @@ header {
         gap: 10px;
         text-align: left; } }
 
+.section-two {
+  padding-bottom: 100px;
+  clip-path: polygon(50% 100%, 100% 90%, 101% 0, 0 0, 0 90%);
+  background-image: linear-gradient(white, transparent), url("../images/section2-backdrop.jpg");
+  background-position: center;
+  background-size: cover; }
+  .section-two h2,
+  .section-two h3 {
+    color: white; }
+  .section-two button {
+    margin-top: 1rem;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    cursor: pointer; }
+    .section-two button:hover, .section-two button:active {
+      background: rgba(255, 255, 255, 0.5);
+      color: black; }
+
 .section-two__logo {
   width: 300px;
   margin: 0 auto; }
