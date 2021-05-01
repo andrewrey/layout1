@@ -20,6 +20,12 @@
       right: auto;
       top: 1rem;
     }
+    @include mq(768px) {
+      margin-top: 0;
+      & + .pic {
+        margin-top: 1rem;
+      }
+    }
   }
 }
 

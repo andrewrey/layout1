@@ -162,6 +162,11 @@ header {
     margin-left: auto;
     margin-right: auto;
     margin-top: 1rem; }
+    @media (min-width: 768px) {
+      .section-two__images .pic {
+        margin-top: 0; }
+        .section-two__images .pic + .pic {
+          margin-top: 1rem; } }
 
 @media (min-width: 768px) {
   .section-two__images__wrap {
