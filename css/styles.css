@@ -171,3 +171,8 @@ header {
 @media (min-width: 768px) {
   .section-two__images__wrap {
     width: calc(100% / 3); } }
+
+.section-two__cta {
+  width: 60%;
+  margin: 100px auto 0;
+  text-align: center; }
