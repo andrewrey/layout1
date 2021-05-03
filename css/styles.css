@@ -235,3 +235,52 @@ header {
   @media (min-width: 768px) {
     .section-four {
       flex-direction: row; } }
+
+@media (min-width: 768px) {
+  .section-five {
+    display: flex;
+    justify-content: center; } }
+
+.section-five__text {
+  text-align: center;
+  padding: 0 0.8rem;
+  width: 70%;
+  margin: 0 auto; }
+  @media (min-width: 768px) {
+    .section-five__text {
+      text-align: left;
+      margin-top: 2rem;
+      width: 50%; } }
+
+.section-five__images {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .section-five__images .hide {
+    display: none; }
+    @media (min-width: 768px) {
+      .section-five__images .hide {
+        display: block; } }
+  @media (min-width: 768px) {
+    .section-five__images {
+      flex-direction: row;
+      width: 50%;
+      margin-top: 2rem; } }
+  .section-five__images .pic {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem; }
+    @media (min-width: 768px) {
+      .section-five__images .pic {
+        width: 80%;
+        margin-top: 0; }
+        .section-five__images .pic + .pic {
+          margin-top: 1rem; } }
+
+@media (min-width: 768px) {
+  .section-five__images__wrap {
+    width: calc(100% / 3); } }
