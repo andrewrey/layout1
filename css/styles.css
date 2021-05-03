@@ -214,7 +214,10 @@ header {
   margin-top: 2rem;
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  background: linear-gradient(white 60%, transparent), url("../images/section4-backdrop.jpg");
+  background-position: center;
+  background-size: cover; }
   .section-four .section-four__text {
     padding: 0 0.8rem;
     text-align: center;
