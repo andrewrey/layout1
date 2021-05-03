@@ -209,3 +209,26 @@ header {
   background-position: 50% 5%;
   background-size: cover;
   clip-path: polygon(63% 100%, 100% 81%, 100% 0, 0 15%, 0 84%); }
+
+.section-four {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .section-four .section-four__text {
+    padding: 0 0.8rem;
+    text-align: center;
+    width: 70%; }
+    @media (min-width: 768px) {
+      .section-four .section-four__text {
+        width: 50%;
+        text-align: left; } }
+  .section-four .section-four__globe_wrap {
+    margin-top: 2rem;
+    width: 70%; }
+    @media (min-width: 768px) {
+      .section-four .section-four__globe_wrap {
+        width: 50%; } }
+  @media (min-width: 768px) {
+    .section-four {
+      flex-direction: row; } }

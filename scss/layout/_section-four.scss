@@ -1,0 +1,27 @@
+.section-four {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .section-four__text {
+    padding: 0 0.8rem;
+    text-align: center;
+    width: 70%;
+    @include mq(768px) {
+      width: 50%;
+      text-align: left;
+    }
+  }
+  .section-four__globe_wrap {
+    margin-top: 2rem;
+
+    width: 70%;
+    @include mq(768px) {
+      width: 50%;
+    }
+  }
+  @include mq(768px) {
+    flex-direction: row;
+  }
+}
