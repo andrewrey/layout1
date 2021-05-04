@@ -3,13 +3,14 @@
     color: white;
     margin-top: 2rem;
     background: transparent;
-    border: 2px solid black;
+    border: 2px solid white;
     padding: 5px 20px;
     font-weight: bold;
     &:hover,
     &:active {
       background: rgba(white, 0.7);
       color: black;
+      border-color: black;
     }
   }
   padding: {

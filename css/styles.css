@@ -244,12 +244,13 @@ header {
     color: white;
     margin-top: 2rem;
     background: transparent;
-    border: 2px solid black;
+    border: 2px solid white;
     padding: 5px 20px;
     font-weight: bold; }
     .section-five button:hover, .section-five button:active {
       background: rgba(255, 255, 255, 0.7);
-      color: black; }
+      color: black;
+      border-color: black; }
   @media (min-width: 768px) {
     .section-five {
       display: flex;
