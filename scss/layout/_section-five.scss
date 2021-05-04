@@ -1,4 +1,17 @@
 .section-five {
+  button {
+    color: white;
+    margin-top: 2rem;
+    background: transparent;
+    border: 2px solid black;
+    padding: 5px 20px;
+    font-weight: bold;
+    &:hover,
+    &:active {
+      background: rgba(white, 0.7);
+      color: black;
+    }
+  }
   padding: {
     bottom: 10rem;
   }
