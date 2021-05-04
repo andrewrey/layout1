@@ -238,10 +238,12 @@ header {
     .section-four {
       flex-direction: row; } }
 
-@media (min-width: 768px) {
-  .section-five {
-    display: flex;
-    justify-content: center; } }
+.section-five {
+  padding-bottom: 10rem; }
+  @media (min-width: 768px) {
+    .section-five {
+      display: flex;
+      justify-content: center; } }
 
 .section-five__text {
   text-align: center;
@@ -286,3 +288,14 @@ header {
 @media (min-width: 768px) {
   .section-five__images__wrap {
     width: calc(100% / 3); } }
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #bdbdbd; }
+
+.footer__logo__wrap {
+  width: 80px;
+  background-color: rgba(245, 245, 245, 0.4);
+  border-radius: 25px; }

@@ -1,4 +1,7 @@
 .section-five {
+  padding: {
+    bottom: 10rem;
+  }
   @include mq(768px) {
     display: flex;
     justify-content: center;
